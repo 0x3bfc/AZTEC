@@ -5,6 +5,7 @@
  */
 
 const devUtils = require('@aztec/dev-utils');
+
 const secp256k1 = require('@aztec/secp256k1');
 const BN = require('bn.js');
 const crypto = require('crypto');

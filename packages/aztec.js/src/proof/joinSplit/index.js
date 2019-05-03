@@ -258,7 +258,7 @@ joinSplit.encodeJoinSplitTransaction = ({
             },
         ])
         .slice(0x42)}`;
-    return { proofData, expectedOutput };
+    return { proofData, expectedOutput, inputSignatures };
 };
 
 /**
