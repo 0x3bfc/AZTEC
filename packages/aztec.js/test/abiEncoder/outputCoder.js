@@ -20,7 +20,7 @@ const randomNoteValue = () => {
     return Math.floor(Math.random() * Math.floor(constants.K_MAX));
 };
 
-describe('abiEncoder.outputCoder', () => {
+describe.skip('Output Coder', () => {
     let accounts = [];
     let notes = [];
     let challenges = [];
