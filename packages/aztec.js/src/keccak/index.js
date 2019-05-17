@@ -56,7 +56,7 @@ class Keccak {
 
     /**
      * Interface for the {@function keccak} with the reduction context set to the constant found in @aztec/dev-utils
-     * 
+     *
      * @name Keccak#redKeccak
      * @function
      */
