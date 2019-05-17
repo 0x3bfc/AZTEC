@@ -1,15 +1,18 @@
-const bilateralSwap = require('./bilateralSwap');
-const burn = require('./burn');
-const dividendComputation = require('./dividendComputation');
-const joinSplit = require('./joinSplit');
-const mint = require('./mint');
-const proofUtils = require('./proofUtils');
+const BurnProof = require('./joinSplitFluid/burn');
+const DividendProof = require('./dividend');
+const JoinSplitProof = require('./joinSplit');
+const JoinSplitProofFluid = require('./joinSplitFluid');
+const MintProof = require('./joinSplitFluid/mint');
+const { Proof, ProofType } = require('./proof');
+const SwapProof = require('./swap');
 
 module.exports = {
-    bilateralSwap,
-    burn,
-    dividendComputation,
-    joinSplit,
-    mint,
-    proofUtils,
+    BurnProof,
+    DividendProof,
+    JoinSplitProof,
+    JoinSplitProofFluid,
+    MintProof,
+    Proof,
+    ProofType,
+    SwapProof,
 };
